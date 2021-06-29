@@ -14,7 +14,7 @@ from mercuri.models import Reception as Reception
 from mercuri.models import HospitalData as HospitalDat
 from mercuri.models import StatusForChart as Stato
 from django.core.files.storage import FileSystemStorage
-import shortuuid
+
 
 # Create your views here.
 class addPatient(View):
